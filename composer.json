@@ -1,0 +1,22 @@
+{
+    "name": "istherepie/hello",
+    "description": "Hello World to the Composer/Packagist community",
+    "type": "library",
+    "license": "None",
+    "authors": [
+        {
+            "name": "Steffen Park",
+            "email": "dev@istherepie.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5.6" 
+	},
+    "autoload": {
+        "psr-4": {
+            "Istherepie\\": "src/"
+        }
+    }
+}
